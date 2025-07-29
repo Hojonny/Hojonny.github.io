@@ -1,8 +1,10 @@
 body {
-  background-color: red;
+  background-color: cornflowerblue;
 }
 h1 {
+	
   color: white;
+  font-size: 60px;
 }
 p {
   color: red;
