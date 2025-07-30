@@ -53,7 +53,7 @@ a:link{
 	color: white;
 }
 a:visited{
-	color: #002f4a;
+	color: white;
 }
 .para{
 	width:760px;
@@ -62,7 +62,7 @@ a:visited{
 }
 .film{
 	width:550px;
-	background-image:linear-gradient(grey,black);
+	background-image:linear-gradient(#101319,#7087b1);
 	margin:10px;
 	border-radius:20px;
 }
