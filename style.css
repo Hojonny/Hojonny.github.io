@@ -1,11 +1,46 @@
 body {
-  background-color: cornflowerblue;
+  background-color: #31394d;
+  font-family: Courier New;
+  text-align: center;
+  text-color:white;
 }
 h1 {
 	
   color: white;
   font-size: 60px;
 }
+h2{
+	color:white;
+	font-style:italic;
+}
+h3 {
+	color: white;
+}
+h4{
+	color:white;
+}
 p {
-  color: red;
+  color: white;
+}
+div{
+	width:220px;
+	margin:20px;
+	display:inline-block;
+	background-color:grey;
+}
+a:link{
+	color: white;
+}
+a:visited{
+	color: #002f4a;
+}
+.para{
+	width:740px;
+	background-color:grey;
+	margin:auto;
+}
+.film{
+	width:550px;
+	background-color:grey;
+	margin:auto;
 }
