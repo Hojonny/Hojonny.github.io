@@ -2,12 +2,13 @@ body {
   background-color: #31394d;
   font-family: Courier New;
   text-align: center;
-  text-color:white;
+
 }
-h1 {
+h1{
 	
   color: white;
   font-size: 60px;
+  background-color:grey;
 }
 h2{
 	color:white;
@@ -19,14 +20,17 @@ h3 {
 h4{
 	color:white;
 }
+h6{
+	color:white;
+}
 p {
   color: white;
 }
 div{
 	width:220px;
-	margin:20px;
 	display:inline-block;
 	background-color:grey;
+	border-radius:10px;
 }
 a:link{
 	color: white;
@@ -43,6 +47,7 @@ a:visited{
 	width:550px;
 	background-color:grey;
 	margin:auto;
+	border-radius:20px;
 }
 .grid-container{
 	display:grid;
@@ -52,5 +57,22 @@ a:visited{
 	width:700px;
 	max-width:700px;
 	margin:auto;
+}
+.companyman{
+	border-radius:5px;
+	width:270px;
+	margin:0px;
+}
+.spacer{
+	width:40px;
+	margin:0px;
+	padding:0px;
+}
+.menubutton{
+	width:220px;
+	margin-right:20px;
+	margin-left:20px;
+	display:inline-block;
 	background-color:grey;
+	border-radius:10px;
 }
