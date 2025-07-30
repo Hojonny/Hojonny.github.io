@@ -1,12 +1,19 @@
 html{
 	background-color: #31394d;
-	height:100%;
-	background-repeat: no-repeat;
+	position:relative;
+	min-height:99%;
 }
 body {
   font-family: Courier New;
   text-align: center;
   height: auto;
+}
+footer{
+	padding-bottom:10px;
+	height:20px;
+	position:absolute;
+    bottom:0;
+	width:99%;
 }
 h1{
 	
@@ -55,7 +62,7 @@ a:visited{
 }
 .film{
 	width:550px;
-	background-color:grey;
+	background-image:linear-gradient(grey,black);
 	margin:10px;
 	border-radius:20px;
 }
@@ -85,6 +92,13 @@ a:visited{
 	width:220px;
 	margin-right:20px;
 	margin-left:20px;
+	display:inline-block;
+	background-color:grey;
+	border-radius:10px;
+}
+.homebutton{
+	width:220px;
+	margin:20px;
 	display:inline-block;
 	background-color:grey;
 	border-radius:10px;
