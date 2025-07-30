@@ -1,8 +1,12 @@
+html{
+	background-color: #31394d;
+	height:100%;
+	background-repeat: no-repeat;
+}
 body {
-  background-color: #31394d;
   font-family: Courier New;
   text-align: center;
-
+  height: auto;
 }
 h1{
 	
@@ -23,10 +27,11 @@ h4{
 h6{
 	color:white;
 }
-h9{
+h5{
 	color:white;
 	font-size:29px;
 	font-weight:bold;
+	margin:10px;
 }
 p {
   color: white;
@@ -51,12 +56,15 @@ a:visited{
 .film{
 	width:550px;
 	background-color:grey;
-	margin:auto;
+	margin:10px;
 	border-radius:20px;
 }
-.grid-container{
-	display:grid;
-	grid-template-columns: 33% 33% 33%;
+.flex-container{
+	width:100%;
+	display:flex;
+	flex-wrap: wrap;
+	background-color:transparent;
+	justify-content:center;
 }
 .paratext{
 	width:700px;
