@@ -1,7 +1,7 @@
 html{
-	background-color: #31394d;
+	background-color:#404d65;
 	position:relative;
-	min-height:99%;
+	min-height:100%;
 }
 body {
   font-family: Courier New;
@@ -19,7 +19,6 @@ h1{
 	
   color: white;
   font-size: 60px;
-  background-color:grey;
 }
 h2{
 	color:white;
@@ -29,6 +28,7 @@ h3 {
 	color: white;
 }
 h4{
+	font-weight:bold;
 	color:white;
 }
 h6{
@@ -78,7 +78,7 @@ a:visited{
 }
 .para{
 	width:760px;
-	background-color:grey;
+	background-color:#31394d;
 	margin:auto;
 }
 .film{
@@ -98,12 +98,13 @@ a:visited{
 	width:700px;
 	max-width:700px;
 	margin:auto;
+	background-color:#31394d;
 }
 .companyman{
 	border-radius:5px;
 	width:270px;
-	height:350px;
 	margin:10px;
+	background-color:#31394d;
 }
 .spacer{
 	width:40px;
@@ -115,13 +116,13 @@ a:visited{
 	margin-right:20px;
 	margin-left:20px;
 	display:inline-block;
-	background-color:grey;
+	background-color:#31394d;
 	border-radius:10px;
 }
 .homebutton{
 	width:220px;
 	margin:20px;
 	display:inline-block;
-	background-color:grey;
+	background-color:#31394d;
 	border-radius:10px;
 }
