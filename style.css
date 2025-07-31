@@ -49,6 +49,27 @@ div{
 	background-color:grey;
 	border-radius:10px;
 }
+.image-cropper {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+img {
+  display: inline;
+  margin: 0 auto;
+  width: auto;
+  position:center;
+}
+.imgcrop {
+	height: 100%;
+	display: inline;
+	margin: 0 auto;
+	width: auto;
+	position:center;
+}
 a:link{
 	color: white;
 }
@@ -81,7 +102,8 @@ a:visited{
 .companyman{
 	border-radius:5px;
 	width:270px;
-	margin:0px;
+	height:350px;
+	margin:10px;
 }
 .spacer{
 	width:40px;
