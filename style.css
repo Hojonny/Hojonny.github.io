@@ -49,6 +49,9 @@ div{
 	display:inline-block;
 	border-radius:20px;
 }
+.full{
+	padding:0px;
+}
 .image-cropper {
   width: 50px;
   height: 50px;
@@ -69,7 +72,6 @@ img {
 	display: inline;
 	margin: 0 auto;
 	width: auto;
-	position:center;
 }
 a:link{
 	color: white;
@@ -93,6 +95,11 @@ a:visited{
 }
 .regdiv{
 	width:800px;
+	margin:auto;
+	padding:0px;
+}
+.aboutdiv{
+	width:1200px;
 	margin:auto;
 	padding:0px;
 }
@@ -126,9 +133,9 @@ a:visited{
 	background-color:#31394d;
 }
 .companyman{
-	border-radius:5px;
+	border-radius:10px;
 	width:270px;
-	margin:10px;
+	margin:5px;
 	background-color:#31394d;
 }
 .spacer{
