@@ -30,6 +30,7 @@ h2{
 }
 h3 {
 	color: white;
+	margin:0px;
 }
 h4{
 	font-weight:bold;
@@ -79,10 +80,10 @@ img {
 	width: auto;
 }
 a:link{
-	color: white;
+	color: #31394d;
 }
 a:visited{
-	color: white;
+	color: #31394d;
 }
 .para{
 	width:800px;
@@ -167,14 +168,15 @@ a:visited{
 }
 .menubutton{
 	display:inline-block;
-	background-color:#31394d;
+	background-color:transparent;
 	border-radius:10px !important;
+	justify-content:center;
 }
 .homebutton{
 	width:220px;
 	margin-bottom:20px;
 	display:inline-block;
-	background-color:#31394d;
+	background-color:transparent;
 	border-radius:10px;
 }
 
