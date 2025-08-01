@@ -109,7 +109,7 @@ a:visited{
 	margin:auto 0;
 	padding:0px;
 	overflow-x:hidden;
-	border-radius:10px;
+	border-radius:0px;
 	
 }
 .regdiv{
@@ -168,9 +168,11 @@ a:visited{
 }
 .menubutton{
 	display:inline-block;
+	border-radius:0px !important;
 	background-color:transparent;
-	border-radius:10px !important;
 	justify-content:center;
+	padding-left:0px;
+	padding-right:0px;
 }
 .homebutton{
 	width:220px;
