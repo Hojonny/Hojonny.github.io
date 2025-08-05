@@ -135,6 +135,17 @@ a.nounderline {
 	top:0;
 	margin-bottom:0px;
 }
+.tickdiv{
+	background-color:#009384;
+	padding:0px;
+	display:flex;
+	justify-content:space-around;
+	border-radius:0px;
+	height:20px;
+	position:sticky;
+	top:0;
+	margin-bottom:0px;
+}
 .paraparent{
 	width:800px;
 	background-color:transparent;
@@ -273,8 +284,6 @@ a.nounderline {
   overflow: hidden;
   height: var(--height);
   padding-left: 50px;
-  padding-top:20px;
-  padding-bottom:20px;
 }
 
 .ticker-tape .ticker {
@@ -298,7 +307,7 @@ a.nounderline {
 .ticker-tape .ticker__item {
   display: inline-block;
   padding: 0 2rem;
-  font-size: 27px;
+  font-size: 20px;
   font-weight:bold;
   color: white;
   font-style:italic;
