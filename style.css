@@ -124,8 +124,6 @@ a.nounderline {
 	animation-iteration-count: infinite;
 	animation-timing-function:linear;
 }
-
-
 .headdiv{
 	background-image:linear-gradient(#101319,#31394d);
 	padding:0px;
@@ -268,4 +266,69 @@ a.nounderline {
 @keyframes headScroll {
 	0%{top:0px;}
 	100%{top:-700px;}
+}
+.ticker-tape {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  height: var(--height);
+  padding-left: 50px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.ticker-tape .ticker {
+  height: var(--height);
+  line-height: var(--height);
+  white-space: nowrap;
+  padding-right: 100%;
+  
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-name: ticker;
+  -webkit-animation-duration: var(--speed);
+  
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: ticker;
+  animation-duration: var(--speed);
+  
+}
+
+.ticker-tape .ticker__item {
+  display: inline-block;
+  padding: 0 2rem;
+  font-size: 27px;
+  font-weight:bold;
+  color: white;
+  font-style:italic;
+}
+
+@-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes ticker {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+:root {
+  --height: 20px;
+  --speed: 120s;
 }
