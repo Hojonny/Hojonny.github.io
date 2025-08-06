@@ -32,7 +32,7 @@ h2{
 h3 {
 	color: white;
 	margin:0px;
-	font-size:25px
+	font-size:28px
 }
 h4{
 	font-weight:bold;
@@ -93,7 +93,7 @@ a.nounderline {
 	color:white;
 }
 .para{
-	width:1000px;
+	width:900px;
 	background-image:linear-gradient(#101319,#31394d);
 	margin:10px;
 	border-radius:7px;
@@ -102,7 +102,7 @@ a.nounderline {
 	overflow-x:hidden;
 }
 .paraSlideCont{
-	width:1000px;
+	width:900px;
 	height:90px;
 	background-image:transparent;
 	padding:0px;
@@ -111,7 +111,7 @@ a.nounderline {
 	vertical-align:middle;
 }
 .paraslide{
-	width:1000px;
+	width:900px;
 	height:90px;
 	position:relative;
 	background-image:transparent;
@@ -148,7 +148,7 @@ a.nounderline {
 	margin-bottom:0px;
 }
 .paraparent{
-	width:1000px;
+	width:900px;
 	background-color:transparent;
 	margin:auto 0;
 	padding:0px;
@@ -157,7 +157,7 @@ a.nounderline {
 	
 }
 .regdiv{
-	width:1000px;
+	width:900px;
 	margin:auto;
 	padding:0px;
 }
@@ -202,7 +202,7 @@ a.nounderline {
 }
 .paratext{
 	width:95%;
-	max-width:1000px;
+	max-width:900px;
 	margin:auto;
 	background-image:linear-gradient(#101319,#31394d);
 	padding:20px;
@@ -237,7 +237,7 @@ a.nounderline {
 }
 
 .tech-slideshow {
-  width:1000px;
+  width:900px;
   height: 286px;
   margin: 0 auto;
   margin-top:5px;
