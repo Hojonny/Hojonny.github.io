@@ -32,11 +32,12 @@ h2{
 h3 {
 	color: white;
 	margin:0px;
+	font-size:25px
 }
 h4{
 	font-weight:bold;
 	color:white;
-	font-size:17px;
+	font-size:23px;
 	
 }
 h6{
@@ -92,7 +93,7 @@ a.nounderline {
 	color:white;
 }
 .para{
-	width:800px;
+	width:1000px;
 	background-image:linear-gradient(#101319,#31394d);
 	margin:10px;
 	border-radius:7px;
@@ -101,7 +102,7 @@ a.nounderline {
 	overflow-x:hidden;
 }
 .paraSlideCont{
-	width:800px;
+	width:1000px;
 	height:90px;
 	background-image:transparent;
 	padding:0px;
@@ -110,7 +111,7 @@ a.nounderline {
 	vertical-align:middle;
 }
 .paraslide{
-	width:800px;
+	width:1000px;
 	height:90px;
 	position:relative;
 	background-image:transparent;
@@ -130,7 +131,7 @@ a.nounderline {
 	display:flex;
 	justify-content:space-around;
 	border-radius:0px;
-	height:100px;
+	height:150px;
 	position:sticky;
 	top:0;
 	margin-bottom:0px;
@@ -141,13 +142,13 @@ a.nounderline {
 	display:flex;
 	justify-content:space-around;
 	border-radius:0px;
-	height:20px;
+	height:50px;
 	position:sticky;
-	top:100px;
+	top:150px;
 	margin-bottom:0px;
 }
 .paraparent{
-	width:800px;
+	width:1000px;
 	background-color:transparent;
 	margin:auto 0;
 	padding:0px;
@@ -156,7 +157,7 @@ a.nounderline {
 	
 }
 .regdiv{
-	width:800px;
+	width:1000px;
 	margin:auto;
 	padding:0px;
 }
@@ -200,11 +201,11 @@ a.nounderline {
 	margin:0px;
 }
 .paratext{
-	width:90%;
-	max-width:700px;
+	width:95%;
+	max-width:1000px;
 	margin:auto;
 	background-image:linear-gradient(#101319,#31394d);
-	padding:0px;
+	padding:20px;
 }
 .companyman{
 	border-radius:10px;
@@ -236,7 +237,7 @@ a.nounderline {
 }
 
 .tech-slideshow {
-  width:800px;
+  width:1000px;
   height: 286px;
   margin: 0 auto;
   margin-top:5px;
@@ -283,12 +284,12 @@ a.nounderline {
   display: flex;
   width: 100%;
   overflow: hidden;
-  height: var(--height);
+  height: 50px;
   padding-left: 50px;
 }
 
 .ticker-tape .ticker {
-  height: var(--height);
+  height: 50px;
   line-height: var(--height);
   white-space: nowrap;
   padding-right: 100%;
@@ -308,10 +309,11 @@ a.nounderline {
 .ticker-tape .ticker__item {
   display: inline-block;
   padding: 0 2rem;
-  font-size: 20px;
+  font-size: 30px;
   font-weight:bold;
   color: white;
   font-style:italic;
+  margin-top:15px;
 }
 
 @-webkit-keyframes ticker {
