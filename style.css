@@ -263,6 +263,15 @@ a.nounderline {
   left: 0;
   animation: moveSlideshow 20s linear infinite;
 }
+.mover-1-offsite {
+  height: 286px;
+  width: max-content;
+  position: absolute;
+  overflow-x:hidden;
+  top: 0;
+  left: 0;
+  animation: moveSlideshowOffsite 10s linear infinite;
+}
 
 .mover-1 img {
   display:inline-block;
@@ -274,6 +283,11 @@ a.nounderline {
 @keyframes moveSlideshow {
   100% { 
     transform: translateX(-2400px);  
+  }
+}
+@keyframes moveSlideshowOffsite {
+  100% { 
+    transform: translateX(-1000px);  
   }
 }
 
